@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="imagens/agenda.png" alt="Agenda de contatos">
+        <h1> Agenda de contatos </h1>
+    </header>
+    <form id="form-agenda">
+        <input type="text" id="nome-pessoa" min="5" required placeholder="Nome e Sobrenome">
+        <input type="tel" id="tel-pessoa" required placeholder="Seu telefone">
+        <button type="submit"> Adicionar na agenda </button>
+    </form>
+    <table cellspacing="0"> <!--Tirar quebra de borda-->
+        <thead>
+            <tr>
+                <th> Nome do contato </th>
+                <th> Telefone de contato </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Nome de Contato</td>
+                <td> Número de Contato</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+    
+</body>
+<script src="javascript/script.js"></script>
+</html>
